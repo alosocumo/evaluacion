@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480bcd86-0e7f-4523-afab-ba2af9641bed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/viaje/_asiento.gsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/u/ticket/Boleto$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/u/ticket/Boleto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/u/ticket/BoletoController.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/views/boleto/crear.gsp" afterPath="$PROJECT_DIR$/grails-app/views/boleto/validar.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources.class" afterPath="$PROJECT_DIR$/target/classes/ApplicationResources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LogoutController.class" afterPath="$PROJECT_DIR$/target/classes/LogoutController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto$Dias.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto$Dias.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto$Horas.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto$Horas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Boleto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/BoletoController.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/BoletoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Role.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/User.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/ulsaoaxaca/edu/mx/UserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/ulsaoaxaca/edu/mx/BoletoController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/ulsaoaxaca/edu/mx/BoletoController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ulsaoaxaca/edu/mx/Boleto.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ulsaoaxaca/edu/mx/Boleto.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/boleto/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/boleto/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/dash.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/dash.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/boleto/validar.gsp" afterPath="$PROJECT_DIR$/grails-app/views/boleto/validar.gsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -60,31 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validar.gsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="validar.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/boleto/validar.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="133" column="81" lean-forward="false" selection-start-line="133" selection-start-column="81" selection-end-line="133" selection-end-column="81" />
+            <state relative-caret-position="389">
+              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
-                <marker date="1497204674493" expanded="true" signature="1745:3684" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="1785:1919" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="1977:2024" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="2078:3672" ph="{&quot;sPaginationType&quot;: &quot;full_numbers&quot;...}" />
-                <marker date="1497204674493" expanded="true" signature="2142:3354" ph="{&quot;decimal&quot;: &quot;&quot;...}" />
-                <marker date="1497204674493" expanded="true" signature="2909:3129" ph="{&quot;first&quot;: &quot;Primero&quot;...}" />
-                <marker date="1497204674493" expanded="true" signature="3159:3336" ph="{&quot;sortAscending&quot;: &quot;: Activar ordenación ascendente&quot;...}" />
-                <marker date="1497204674493" expanded="true" signature="3388:3569" ph="[...]" />
-                <marker date="1497204674493" expanded="true" signature="3410:3517" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="3872:3913" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="3950:5318" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="3969:4283" ph="{&quot;title&quot;: &quot;Está seguro?&quot;...}" />
-                <marker date="1497204674493" expanded="true" signature="4312:5306" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="4383:5285" ph="{&quot;type&quot;: 'POST'...}" />
-                <marker date="1497204674493" expanded="true" signature="4453:4519" ph="{&quot;id&quot;: boleto...}" />
-                <marker date="1497204674493" expanded="true" signature="4658:5105" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="4693:4981" ph="{&quot;title&quot;: 'Bien'...}" />
-                <marker date="1497204674493" expanded="true" signature="4994:5077" ph="{...}" />
-                <marker date="1497204674493" expanded="true" signature="5155:5263" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="1746:3685" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="1786:1920" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="1978:2025" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="2079:3673" ph="{&quot;sPaginationType&quot;: &quot;full_numbers&quot;...}" />
+                <marker date="1497204893894" expanded="true" signature="2143:3355" ph="{&quot;decimal&quot;: &quot;&quot;...}" />
+                <marker date="1497204893894" expanded="true" signature="2910:3130" ph="{&quot;first&quot;: &quot;Primero&quot;...}" />
+                <marker date="1497204893894" expanded="true" signature="3160:3337" ph="{&quot;sortAscending&quot;: &quot;: Activar ordenación ascendente&quot;...}" />
+                <marker date="1497204893894" expanded="true" signature="3389:3570" ph="[...]" />
+                <marker date="1497204893894" expanded="true" signature="3411:3518" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="3873:3914" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="3951:5319" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="3970:4284" ph="{&quot;title&quot;: &quot;Está seguro?&quot;...}" />
+                <marker date="1497204893894" expanded="true" signature="4313:5307" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="4384:5286" ph="{&quot;type&quot;: 'POST'...}" />
+                <marker date="1497204893894" expanded="true" signature="4454:4520" ph="{&quot;id&quot;: boleto...}" />
+                <marker date="1497204893894" expanded="true" signature="4659:5106" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="4694:4982" ph="{&quot;title&quot;: 'Bien'...}" />
+                <marker date="1497204893894" expanded="true" signature="4995:5078" ph="{...}" />
+                <marker date="1497204893894" expanded="true" signature="5156:5264" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoletoController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BoletoController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/ulsaoaxaca/edu/mx/BoletoController.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -192,8 +161,8 @@
         <option value="$PROJECT_DIR$/grails-app/views/viaje/_asiento.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/boleto/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/ulsaoaxaca/edu/mx/ViajeController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/boleto/validar.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/ulsaoaxaca/edu/mx/BoletoController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/boleto/validar.gsp" />
       </list>
     </option>
   </component>
@@ -759,12 +728,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497198474561</updated>
-      <workItem from="1497198476509" duration="6306000" />
+      <workItem from="1497198476509" duration="6416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6306000" />
+    <option name="totallyTimeSpent" value="6416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -911,39 +880,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/boleto/validar.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="133" column="81" lean-forward="false" selection-start-line="133" selection-start-column="81" selection-end-line="133" selection-end-column="81" />
-          <folding>
-            <marker date="1497204674493" expanded="true" signature="1745:3684" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="1785:1919" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="1977:2024" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="2078:3672" ph="{&quot;sPaginationType&quot;: &quot;full_numbers&quot;...}" />
-            <marker date="1497204674493" expanded="true" signature="2142:3354" ph="{&quot;decimal&quot;: &quot;&quot;...}" />
-            <marker date="1497204674493" expanded="true" signature="2909:3129" ph="{&quot;first&quot;: &quot;Primero&quot;...}" />
-            <marker date="1497204674493" expanded="true" signature="3159:3336" ph="{&quot;sortAscending&quot;: &quot;: Activar ordenación ascendente&quot;...}" />
-            <marker date="1497204674493" expanded="true" signature="3388:3569" ph="[...]" />
-            <marker date="1497204674493" expanded="true" signature="3410:3517" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="3872:3913" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="3950:5318" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="3969:4283" ph="{&quot;title&quot;: &quot;Está seguro?&quot;...}" />
-            <marker date="1497204674493" expanded="true" signature="4312:5306" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="4383:5285" ph="{&quot;type&quot;: 'POST'...}" />
-            <marker date="1497204674493" expanded="true" signature="4453:4519" ph="{&quot;id&quot;: boleto...}" />
-            <marker date="1497204674493" expanded="true" signature="4658:5105" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="4693:4981" ph="{&quot;title&quot;: 'Bien'...}" />
-            <marker date="1497204674493" expanded="true" signature="4994:5077" ph="{...}" />
-            <marker date="1497204674493" expanded="true" signature="5155:5263" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/ulsaoaxaca/edu/mx/BoletoController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/boleto/validar.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <marker date="1497204893894" expanded="true" signature="1746:3685" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="1786:1920" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="1978:2025" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="2079:3673" ph="{&quot;sPaginationType&quot;: &quot;full_numbers&quot;...}" />
+            <marker date="1497204893894" expanded="true" signature="2143:3355" ph="{&quot;decimal&quot;: &quot;&quot;...}" />
+            <marker date="1497204893894" expanded="true" signature="2910:3130" ph="{&quot;first&quot;: &quot;Primero&quot;...}" />
+            <marker date="1497204893894" expanded="true" signature="3160:3337" ph="{&quot;sortAscending&quot;: &quot;: Activar ordenación ascendente&quot;...}" />
+            <marker date="1497204893894" expanded="true" signature="3389:3570" ph="[...]" />
+            <marker date="1497204893894" expanded="true" signature="3411:3518" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="3873:3914" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="3951:5319" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="3970:4284" ph="{&quot;title&quot;: &quot;Está seguro?&quot;...}" />
+            <marker date="1497204893894" expanded="true" signature="4313:5307" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="4384:5286" ph="{&quot;type&quot;: 'POST'...}" />
+            <marker date="1497204893894" expanded="true" signature="4454:4520" ph="{&quot;id&quot;: boleto...}" />
+            <marker date="1497204893894" expanded="true" signature="4659:5106" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="4694:4982" ph="{&quot;title&quot;: 'Bien'...}" />
+            <marker date="1497204893894" expanded="true" signature="4995:5078" ph="{...}" />
+            <marker date="1497204893894" expanded="true" signature="5156:5264" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

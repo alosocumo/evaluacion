@@ -31,7 +31,7 @@
             <th>Destino</th>
             <th>Salida</th>
             <th>Huella</th>
-            <th>Opcion</th>
+            <th>Validar</th>
         </tr>
         </thead>
         <tbody>

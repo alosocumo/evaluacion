@@ -8,7 +8,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
     <title>UTicket | Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'logo.png')}" type="image/x-icon">
@@ -59,10 +58,21 @@
         <div class="col-md-3 left_col menu_fixed">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="${createLink(controller: 'boleto', action: 'dash')}" class="site_title"><i class="fa fa-h-square"></i><span>U-Ticket</span></a>
+                    <a href="${createLink(controller: 'boleto', action: 'dash')}" class="site_title"><i class="fa fa-ticket"></i><span>U-Ticket</span></a>
                 </div>
                 <div class="clearfix"></div>
 
+                <div class="profile clearfix">
+                    <div class="profile_pic">
+                        <img src="${resource(dir: 'images', file: 'profile.png')}" alt="..." class="img-circle profile_img">
+                    </div>
+                    <div class="profile_info">
+                        <span>
+                            Bienvenido,
+                        </span>
+                        <h2>Admin</h2>
+                    </div>
+                </div>
 
                 <!-- sidebar menu -->
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
@@ -70,7 +80,9 @@
                     <div class="menu_section">
                         <h3>General</h3>
                         <ul class="nav side-menu">
-                            <li class="boleto"><a href="${createLink(controller: 'boleto', action: 'index')}"><i class="fa fa-home"></i> Boletos </a>
+                            <li class="boleto"><a href="${createLink(controller: 'boleto', action: 'index')}"><i class="fa fa-home"></i>Vender </a>
+                            </li>
+                            <li class="boleto"><a href="${createLink(controller: 'boleto', action: 'validar')}"><i class="fa fa-check"></i>Validar </a>
                             </li>
                         </ul>
                     </div>
@@ -90,10 +102,10 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="clickAbrir">
                             <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <img src="${resource(dir: 'images', file: 'profile.png')}" alt="">Admin
                                 <span class=" fa fa-angle-down"></span>
                             </a>
                             <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
-
                                 <li><a href="${createLink(controller: 'logout', action: 'index')}"><i class="fa fa-sign-out pull-right"></i> Cerrar Sesión</a>
                                 </li>
                             </ul>
@@ -121,6 +133,7 @@
                             </g:if>
 
                             <g:layoutBody/>
+                            <r:layoutResources />
                         </div>
                     </div>
                 </div>

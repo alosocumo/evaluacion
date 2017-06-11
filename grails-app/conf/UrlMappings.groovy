@@ -7,7 +7,7 @@ class UrlMappings {
 			}
 		}
 
-		"/"(view:"/index")
+		"/"(controller: 'boleto', action: 'index')
 		"500"(view:'/error')
 	}
 }

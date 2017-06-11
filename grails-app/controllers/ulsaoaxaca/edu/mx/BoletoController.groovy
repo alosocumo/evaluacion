@@ -6,12 +6,24 @@ import grails.plugins.springsecurity.Secured
 class BoletoController {
 
 
-    def crear() {
-
-
+    def validar() {
+        def boletos = Boleto.findAll()
+        [boletos: boletos]
     }
-    def index() {
 
+    def aplicar(Long id){
+        def boleto = Boleto.get(id)
+        boleto.valido = false
+        if(boleto.save(flush: true)){
+            render status: 200
+        }else{
+            render status: 400
+        }
+    }
+
+    def index() {
+        def salidas = Salida.getAll()
+        [salidas: salidas]
     }
 
 }
